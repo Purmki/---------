@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function printChars(myString){//להדפיס מחרוזת ללוג
+        //     for(var i=0; i<myString.length; i++){
+        //         console.log(myString[i])
+        //     }
+        // }
+        // printChars("hello")
+
+
+
+        //         2
+        //         var newString = ""//להדפיס מחרוזת שאחרי כל אות יופיע המספר שלה באינדקס
+        // function printWord(myString){
+        //     for(var i=0; i<myString.length; i++){
+        //         newString=newString+(myString[i]+i)
+        //     }
+        //     console.log(newString)
+        // }
+        // printWord("zbabir")
+
+
+
+                // //3// להחליף כל אות שנייה במחרוזת ב2
+               
+                // function evenToTwo(myString){
+                //     var newString=""
+                //     for(var i=0; i<myString.length; i++){
+                //        if(i %2==0){
+                //         newString=newString+"2"
+                //        }
+                //        else{
+                //         newString=newString+myString[i]
+                //        }
+                //     }
+                //     console.log(newString)
+                // }
+                // evenToTwo("shuttap")
+
+
+
+                        // //4//לבדוק אם האות הראשונה במחרוזת שווה אות מסויימת
+                        // function firstLetterA(myString){
+                        //     if(myString[0]=="A"){
+                        //         console.log("hello")
+                        //     }
+                        //     else{
+                        //         console.log("bye")
+                        //     }
+                        // }
+                        // firstLetterA("ALAKAZAM")
+
+
+
+                        //5//לבדוק אם האות האחרונה במחרוזת שווה אות מסויימת
+                        // function lastLetterE(){
+                        //     var lastName = prompt("insert a word")
+                        //     if(lastName[lastName.length-1]=="e")
+                        //     console.log("yes")
+                        // else{ console.log("no");}
+                        // }
+                        // lastLetterE()
+            
+
+
+
+
+
+                        //6//להפוך מחרוזת לאות גדולה
+                        // function upperCase(myString){
+                        //     upperCaseString=""
+                        //     for(i=0; i<myString.length; i++){
+                        //       upperCaseString= upperCaseString + myString[i].toUpperCase()
+                        //     }
+                        //     console.log(upperCaseString);
+                        // }
+                        // upperCase("why so much questions")
+
+
+                            
+
+
+                        //7         משנה מחרוזת למספרים (ולמערך)
+                    //     function stringToArray(myString){
+                    //         newsString=""
+                    //         for(i=0; i<myString.length; i++){
+                    //             if(myString[i]!=","){
+                    //                 newsString=newsString +myString[i]
+                    //             }
+                    //             else{
+                    //                 newsString=newsString +" "
+                    //             }
+                    //         }
+                    //         // newArray = newsString.split(","); //array הוסיף כדי שזה יהפוך לאשכרה gpt
+                    //         // return newArray
+                    //         return newsString
+                    //     }
+                    //    newOutsideArray= stringToArray("45,33,5,12")
+                    //    console.log(newOutsideArray)
+
+
+
+
+
+                                // 8 פונקציה של מספר רנדומלי בין 1-10
+
+                            //    function randomNum(){
+                            //   console.log(Math.floor(Math.random()*11)); //בשביל לעגל את המספר floor שימוש ב                            //    }
+                            //    randomNum()
+
+
+
+                            //9 אותו דבר כמו שאלה קודמת רק כארגומנט לפונקציה
+
+                            // function randomNum(randomAssNumber){
+                            //     console.log(Math.floor(Math.random()*randomAssNumber))
+                            // }
+                            // randomNum(57)
+
+
+
+                            //10 מקבל מספר ממשתמש ומארגומנט ואם זהים שולח אותך 
+                            //למלא כרטיס לוטו (בגלל הבעיה של הרנדומליות אי אפשר לדעת מה המספר שהתקבל)
+                            // function randomNum(randomAssNumber){
+                            //     var numFromUser=+prompt("insert a number")
+                            //     randomNumber = (Math.floor(Math.random()*randomAssNumber))
+                            //     if(numFromUser===randomNumber){
+                            //     console.log("go get a lottery ticket");
+                            //     }
+                            //     else{
+                            //         console.log("better luck next time");
+                            //     }
+                            // }
+                            // randomNum(40)
+
+
+
+
+                                //11 יוצרת מערך של 10 מספרים שכל אחד מהם רנדומלי בין 1-100
+                                // function assignToArray(){
+                                //     var myArray=[]
+                                //     for(i=0; i<11; i++){
+                                //         myArray[i]=(Math.floor(Math.random()*101))
+                                //     }
+                                //     console.log(myArray);
+                                // }
+                                // assignToArray()
+
+
+
+                                //12 בודק מקסימום בין 2 מספרים אחד מהמשתמש אחד רנדומלי
+                                // function maxCompetition(){
+                                //     var firstCompetitor = +prompt("insert a number")
+                                //     var secondCompetitor=(Math.floor(Math.random()*101))
+                                //     console.log(Math.max(firstCompetitor,secondCompetitor))
+                                // }
+                                // maxCompetition()
+
+
+
+                                //13 מוצא את הכי קטן מבין 5 מספרים של מערך
+                                // function lowestOfThem(){
+                                //     newArray=[]
+                                //     for(i=0; i<5; i++){
+                                //    newArray[i] = +prompt("insert a number")
+                                //     }
+                                //     console.log(Math.min(...newArray)) //משמעות ה... היא לפרק מערך לבודדים
+                                // }
+                                // lowestOfThem()
+
+
+
+                                //14  מקבל מספר מהמשתמש וראנדומלי 1-100
+                                //אם מספר מהמשתמש זוגי מביא מינומום אם אי זוגי מביא מקסימום
+                                // function evenUserNumber(){
+                                //     var firstNumber = +prompt("insert a number")
+                                //     var secondNumber=(Math.floor(Math.random()*101))
+                                //     if(firstNumber%2==0){
+                                //         console.log(Math.min(firstNumber,secondNumber))
+                                //     }
+                                //     else{
+                                //         console.log(Math.max(firstNumber,secondNumber))
+                                //     }
+                                // }
+                                // evenUserNumber()
+
+
+
+                                //15 פונקציה שבונה מערך בגודל רנדומלי עם מספרים רנדומליים
+                                // function randomArray(){
+                                //     newArray=[]
+                                //     for(i=0; i<(Math.floor(Math.random()*364)); i++){
+                                //         newArray[i]=Math.floor(Math.random()*873)
+                                //     }
+                                //     console.log(newArray);
+                            
+                                // }
+                                //     randomArray()
+
+
+                                
+
+
+                                //16 מוצא אינדקס ראנדומלי בתוך מערך
+                                // function RandomIndexInArray(){
+                                //     var newArray=[7,9,6,13,2]
+                                //     console.log(newArray[Math.floor(Math.random()*5)])
+
+
+                                // }
+                                // RandomIndexInArray()
+
+
+                                    //------------------
+                                //17  פונקציה שמקבלת מהמשתמש מילה ומגדילה אות ספציפית (אבל מחזירה רק את האות)
+                                // function randomLetterCapital(){
+                                //    var myString=prompt("insert a word")
+                                //    newString=""
+                                //    var newString = newString+ myString[Math.floor(Math.random()*myString.length)].toUpperCase()
+                                //     console.log(newString)
+                                // }
+                                // randomLetterCapital()
+
+
+
+
+
+    </script>
+</body>
+</html>
