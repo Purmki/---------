@@ -88,22 +88,22 @@
 
 
                         //7         משנה מחרוזת למספרים (ולמערך)
-                    //     function stringToArray(myString){
-                    //         newsString=""
-                    //         for(i=0; i<myString.length; i++){
-                    //             if(myString[i]!=","){
-                    //                 newsString=newsString +myString[i]
-                    //             }
-                    //             else{
-                    //                 newsString=newsString +" "
-                    //             }
-                    //         }
-                    //         // newArray = newsString.split(","); //array הוסיף כדי שזה יהפוך לאשכרה gpt
-                    //         // return newArray
-                    //         return newsString
-                    //     }
-                    //    newOutsideArray= stringToArray("45,33,5,12")
-                    //    console.log(newOutsideArray)
+                        function stringToArray(myString){
+                            newsString=""
+                            for(i=0; i<myString.length; i++){
+                                if(myString[i]!=","){
+                                    newsString=newsString +myString[i]
+                                }
+                                else{
+                                    newsString=newsString +" "
+                                }
+                            }
+                            // newArray = newsString.split(","); //array הוסיף כדי שזה יהפוך לאשכרה gpt
+                            // return newArray
+                            return newsString
+                        }
+                       newOutsideArray= stringToArray("45,33,5,12")
+                       console.log(newOutsideArray)
 
 
 
@@ -227,6 +227,295 @@
                                 //     console.log(newString)
                                 // }
                                 // randomLetterCapital()
+
+
+
+
+                                //18 שאלה מבקשת 2 מספרים ו2 שמות מהמשתמש ומדפיסה דברים לפי האם האות הראשונה והאחרונה זהות
+                                
+                                    // var firstName= prompt("enter a first name")
+                                    // var secondName= prompt("enter a second name")
+                                    // var firstNumber= +prompt("enter a first number")
+                                    // var secondNumber= +prompt("enter a second number")
+                                    // if(firstName.indexOf(0)==secondName.indexOf[0]){
+                                    //   console.log(Math.floor(Math.random()*100))
+                                    // }
+                                    // else if(firstName.indexOf(firstName[firstName.length - 1])==secondName.indexOf(secondName[secondName.length-1])){
+                                    //     console.log(firstName[firstName.length - 1])
+                                    // }
+                                    // else{
+                                    //     console.log(firstNumber)
+                                    //     console.log(secondNumber)
+                                    // }
+
+
+
+                                    //19 פונקציה שנותנת מספר ראנדומלי בין 1-5 של מילים מתוך טקסט
+                                    // function randomNumberInText(){
+                                    // var text= prompt("insert a text")
+                                    // var randomNum=Math.floor(Math.random()*5)
+                                    // console.log(text.substr(0,randomNum))
+                                    // }
+                                    // randomNumberInText()
+
+
+
+                                    //21 פונקציה שמדפיסה לקונסול את התאריך והשעה בעת הפעלתה
+
+                                    // function dayAndHour(){
+                                    // var todayDate= new Date().getDate()
+                                    // var todayhour= new Date().getHours()
+                                    // console.log(todayDate)
+                                    // console.log(todayhour)
+                                    // }
+                                    // dayAndHour()
+
+
+                                    //22   date פונקציה הקולטת תאריך כסטרינג ומדפיסה לקונסול אובייקט של
+                                    // function today(todayDate){
+                                    //     var StringDate = todayDate
+                                    //     var StringToDate = new Date(todayDate)
+                                    //     console.log(StringToDate);
+
+                                    // }
+                                    // today("2023-08-21")
+
+
+                                        //23 כמו 22 אבל מדפיסה ספציפית את החודש
+                                    // function today(todayDate){
+                                    //     var StringDate = todayDate
+                                    //     var StringToDate = new Date(todayDate)
+                                    //     var thisMonth =StringToDate.getMonth()
+                                    //     console.log(thisMonth);
+
+                                    // }
+                                    // today("2023-08-21")
+
+
+
+                                      //24 כמו 22 אבל מדפיסה ספציפית את השעה
+                                    // function today(todayDate){
+                                    //     var StringDate = todayDate
+                                    //     var StringToDate = new Date(todayDate)
+                                    //     var thisHour =StringToDate.getHours()
+                                    //     console.log(thisHour);
+
+                                    // }
+                                    // today("2023-08-21")
+
+
+                                        //28 מקבל 2 תאריכים כסטרינג ומחזיר את הגדול
+                                // function today(firstDate, secondDate){
+                                //        c
+                                //         var secondStringDate = new Date(secondDate)
+                                //         if(firstStringDate>secondStringDate){
+                                //             console.log(firstStringDate);
+                                //         }
+                                //         else{
+                                //             console.log(secondDate)
+                                //         }
+                                // }
+                                // today("2022-08-21", "2023-07-15")
+
+
+
+                              //  29 פונקציה שמקבלת תאריך מהמשתמש ומחזירה בן כמה הוא בשנים
+                            //   function ageOfUser(){
+                            //     var userBirthDate = prompt("Enter a date (YYYY-MM-DD)")
+                            //     var StringToDate = new Date(userBirthDate)
+                            //     var todayDate= new Date()
+                            //    var userAge= todayDate.getFullYear() - StringToDate.getFullYear()
+                            //     console.log(userAge);
+                            //   }
+                            //   ageOfUser()
+
+
+                                //30 כמו 29 אבל כותבת למשתמש אם יכול להיכנס או לא בהתאם לגיל שלו
+                            // function ageOfUser(){
+                            //     var userBirthDate = prompt("Enter a date (YYYY-MM-DD)")
+                            //     var StringToDate = new Date(userBirthDate)
+                            //     var todayDate= new Date()
+                            //    var userAge= todayDate.getFullYear() - StringToDate.getFullYear()
+                            //     if(userAge>18){
+                            //         alert("you may enter")
+                            //     }
+                            //     else{
+                            //         alert("you may not enter")
+                            //     }
+                            //   }
+                            //   ageOfUser()
+
+
+
+
+                            //32
+                            //---------------------------------------
+                            // var myArray=[]
+                            // function returnValue(myString){
+                            //     for(i=0; i<myString.length;i++){
+                            //         if(myString[i]===":"){
+                            //             var stratFirstIndex=i+1
+                            //             var endFirstIndex=myString.indexOf(",",i)+1;
+                            //         myArray =myString.substring(stratFirstIndex,endFirstIndex)
+                                       
+                            //         }
+                            //         console.log(myArray);
+                            //         break
+                                    
+                            //     }
+
+                            // }
+                            // returnValue("name:jacob,id:44")
+
+
+
+
+                            //37 פונקציה שבודקת אם סטרינג ארוך ממספר מסוים או לא
+                            // function stringSize(myString){
+                            //     if(myString.length>=5){
+                            //         console.log("long")
+                            //     }
+                            //     else{
+                            //         console.log("short");
+                            //     }
+                            // }
+                            // stringSize("hello world")
+
+
+                                    //38 בודק אם אות מסוימת קיימת ומחזירה את המיקום שלה באינדקס
+                        //              function stringSize(myString){
+                        //                 for(i=0; i<myString.length; i++){
+                        //         if(myString[i]=="a"){
+                        //             console.log(myString.indexOf("a"))
+                        //             return
+                        //         }
+                        //     }
+                        //     console.log("not exist");
+                        // }
+                        //   var isInString=  stringSize("hello aorld")
+                        //   console.log(isInString)
+
+
+
+                               //39 בודק אם אות מסוימת קיימת
+                        //              function stringSize(myString){
+                        //                 for(i=0; i<myString.length; i++){
+                        //         if(myString[i]=="r"){
+                        //             console.log("true")
+                        //             return
+                        //         }
+                        //     }
+                        //     console.log("false");
+                        // }
+                        //   var isInString=  stringSize("hello world")
+                        //   console.log(isInString)
+
+
+
+
+
+
+                         //40  // מקבל תו וסטרינג ובודק האם התו נמצא בסטרינג
+                        //              function stringSize(myString,myLetter){
+                        //                 for(i=0; i<myString.length; i++){
+                        //         if(myString[i]==myLetter){
+                        //             console.log("true")
+                        //             return
+                        //         }
+                        //     }
+                        //     console.log("false");
+                        // }
+                        //   var isInString=  stringSize("hello world","h")
+                        //   console.log(isInString)
+
+
+
+
+                        //41   מקבל תו וסטרינג ובודק איפה התו נמצא בסטרינג
+                        // function stringSize(myString,myLetter){
+                        //                 for(i=0; i<myString.length; i++){
+                        //         if(myString[i]==myLetter){
+                        //             console.log(myString.lastIndexOf(myLetter))
+                        //             return
+                        //         }
+                        //     }
+                        //     console.log("false");
+                        // }
+                        //   var isInString=  stringSize("hello world","d")
+                        //   console.log(isInString)
+
+
+
+
+                        //42 sayonara פונקציה שמדפיסה 3 אותיות ראשונה מהמילה 
+                       
+                                    // function randomNumberInText(text){
+                                    // console.log(text.substr(0,3))
+                                    // }
+                                    // randomNumberInText("sayonara")
+
+
+
+
+                                    //48+49   פונקציה שמקבלת סטרינג ואינדקס אם האינדקס גדול מדפיסה גדול יותר ואם הפוך מדפיסה חלק מהסטרינג.
+
+
+
+                                    // function stringAndIndex(myString,myIndex){
+                                    //     if(myIndex>myString.length){
+                                    //         console.log("index is too big");
+                                    //     }
+                                    //     else{
+                                    //         console.log(myString.substr(0,3))
+                                    //     }
+                                    // }
+                                    // var whatsBigger= stringAndIndex("meshaamem",5)
+                                    // console.log(whatsBigger)
+
+                                        
+                                    //55 פונקציה שמקבלת שם מלא מהמשתמש ומחזירה כמה תווים יש בו
+                                    //האם יש בו רווח ואת המילה הראשונה והמילה השנייה בשם
+                                    // function fullNameCheck(){
+                                    //     var fullName= prompt("insert a name")
+                                    //     console.log("full name is" ,fullName.length ,"long" )
+                                    //     for(i=0; i<fullName.length; i++){
+                                    //         if(fullName[i]==" "){
+                                    //             console.log("there are multiple words")
+                                    //             console.log(fullName.substr(0,i))
+                                    //             console.log(fullName.substr(i+1,fullName.length))
+                                    //         }
+                                    //     }
+                                     // }
+                                    // fullNameCheck()
+
+
+                                    //65+66 פונקציה שמקבלת שם ושם משפחה ומחזירה את האות הראשונה מהשם ואת שם המשפחה באותיות גדולות
+                                    // function nameAndLast(firstNameFirstLetter,lastName){
+                                    //     console.log(firstNameFirstLetter.substr(0,1).toUpperCase()+". "+lastName.toUpperCase())
+
+                                    // }
+                                    // nameAndLast("omer","goldberger")
+
+                                   
+
+
+
+
+
+
+                            
+
+
+
+
+
+
+
+
+
+
+                                
+
 
 
 
